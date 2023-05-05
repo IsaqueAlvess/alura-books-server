@@ -1,5 +1,1 @@
-[
-  { "id": "1", "name": "Crazy book" },
-  { "id": "2", "name": "Really Crazy book" },
-  { "id": "3", "name": "New Very Good book" }
-]
+[{"id":"1","name":"Crazy book"},{"id":"2","name":"Really Crazy book"},{"id":"3","name":"New Very Good book"},{"id":"4","name":"Creating an JS Application"}]
