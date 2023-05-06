@@ -1,5 +1,5 @@
 const { Router } = require('express');
-const { getBooks, getBook, postBook } = require('../controllers/book')
+const { getBooks, getBook, postBook, patchBook, deleteBook } = require('../controllers/book')
 
 const router = Router();
 
@@ -9,13 +9,10 @@ router.get('/:id', getBook) //Get Book By Id
 
 router.post('/', postBook)  //Post (insert) Book
 
-router.delete('/', (req, res) => {  //Delete Book (Hard delete)
+router.patch('/:id', patchBook)  //Edit Book
     
-})
 
-router.patch('/', (req, res) => {   //Edit Book
-    
-})
+router.delete('/:id', deleteBook)   //Delete Book (Hard delete)
 
 
 
